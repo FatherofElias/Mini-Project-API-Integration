@@ -28,14 +28,16 @@
             </ul>
         </div>
     </nav>
-
     <div class="container mt-5">
         <div class="jumbotron text-center">
-            <h1>Welcome to Pokémon Explorer</h1>
-            <p>Explore the world of Pokémon</p>
-            <button class="btn btn-primary" onclick="fetchPokemon()">Start Exploring</button>
+            <h1>Search for a Pokémon</h1>
+            <p>Enter the name or ID of a Pokémon to get information</p>
+            <form id="search-form">
+                <input type="text" id="pokemon-input" class="form-control" placeholder="Enter Pokémon name or ID">
+                <button type="submit" class="btn btn-primary mt-3">Search</button>
+            </form>
         </div>
-        <div id="pokemon-container" class="row"></div>
+        <div id="pokemon-info" class="text-center mt-5"></div>
     </div>
     <script src="pokeApi.js"></script>
 </body>

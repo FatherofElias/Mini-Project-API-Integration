@@ -12,11 +12,16 @@ body {
     font-weight: bold;
 }
 
-.pokemon-card {
+.pokemon-info-card {
     margin: 1rem;
     padding: 1rem;
     border: 1px solid #ddd;
     border-radius: 0.5rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
+}
+
+.pokemon-info-card img {
+    max-width: 200px;
+    height: auto;
 }
