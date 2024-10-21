@@ -22,41 +22,30 @@ The landing page of the application, featuring a Bootstrap navbar and a jumbotro
 
 Displays a list of Pokémon categorized by their types. Each type category shows a sample of Pokémon belonging to that type.
 
-- **HTML**: Sets up the structure of the types page.
-- **CSS** (pokeTypes.css): Styles the page to differentiate Pokémon types.
-- **JavaScript** (pokeTypes.js): Fetches type data from the PokeAPI and displays it on the page.
+
 
 ### Pokémon Abilities Page
 
 Lists different Pokémon abilities and provides detailed descriptions for each ability.
 
-- **HTML**: Sets up the structure of the abilities page.
-- **CSS** (pokeAbilities.css): Styles the page to present the abilities neatly.
-- **JavaScript** (pokeAbilities.js): Fetches ability data from the PokeAPI and displays it on the page.
+
 
 ### Pokémon Moves Page
 
 Showcases various Pokémon moves, including their names, types, power, accuracy, and effects.
 
-- **HTML**: Sets up the structure of the moves page.
-- **CSS** (pokeMoves.css): Styles the page to present the moves neatly.
-- **JavaScript** (pokeMoves.js): Fetches move data from the PokeAPI and displays it on the page.
+
 
 ### Pokémon Generation Page 
 
 Displays Pokémon from specific generations and allows users to explore them within each generation.
 
-- **HTML**: Sets up the structure of the generations page.
-- **CSS** (pokeGenerations.css): Styles the page to present the generations neatly.
-- **JavaScript** (pokeGenerations.js): Fetches generation data from the PokeAPI and displays it on the page. Filters and displays Pokémon based on the selected generation.
+
 
 ### Pokémon Team Builder 
 
 Allows users to assemble and customize their Pokémon teams. Users can drag and drop Pokémon to add them to their team and remove them with a button click.
 
-- **HTML**: Sets up the structure of the team builder page.
-- **CSS** (pokeTeam.css): Styles the page to present the Pokémon list and team neatly.
-- **JavaScript** (pokeTeam.js): Fetches Pokémon data, implements drag-and-drop functionality, and manages the team 
 
 ### Pokémon Battle Simulator
 
