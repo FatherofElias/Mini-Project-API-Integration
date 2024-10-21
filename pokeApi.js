@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 async function fetchPokemonData(query) {
     const pokemonInfo = document.getElementById('pokemon-info');
-    pokemonInfo.innerHTML = ''; // Clear previous content
+    pokemonInfo.innerHTML = ''; 
 
     try {
         const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${query}`);

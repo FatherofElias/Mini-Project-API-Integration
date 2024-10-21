@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#pokemon-details {
+    margin-top: 2rem;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#pokemon-details img {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+#pokemon-details table {
+    margin: 0 auto;
+    width: 80%;
+}
