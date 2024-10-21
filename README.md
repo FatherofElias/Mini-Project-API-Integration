@@ -16,7 +16,7 @@ Welcome to Pokémon Explorer! This web application allows users to explore and l
 
 ### Homepage/Search Page
 
-The landing page of the application, featuring a Bootstrap navbar and a jumbotron with a searchbar exploring Pokémon.
+The landing page of the application, featuring a Bootstrap navbar and a jumbotron with a searchbar for exploring Pokémon.
 
 ### Pokémon Types Page 
 
