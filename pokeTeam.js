@@ -11,10 +11,10 @@ function initializeTeamBuilder() {
 
 async function fetchPokemonList() {
     const pokemonListContainer = document.getElementById('pokemon-list');
-    pokemonListContainer.innerHTML = ''; // Clear previous content
+    pokemonListContainer.innerHTML = ''; 
 
     try {
-        const response = await fetch('https://pokeapi.co/api/v2/pokemon?limit=151'); // Fetching first generation Pokémon
+        const response = await fetch('https://pokeapi.co/api/v2/pokemon?limit=151'); 
         const data = await response.json();
         console.log('Fetched Pokémon list:', data.results);
 
