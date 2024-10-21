@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.pokemon-card {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.pokemon-card img {
+    max-width: 100px;
+    height: auto;
+}
+
+#battle-log {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #f9f9f9;
+    max-height: 300px;
+    overflow-y: auto;
+}
